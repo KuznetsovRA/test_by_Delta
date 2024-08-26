@@ -8,20 +8,22 @@
     margin: 0;
     padding: 0;
     background-color: white;
-
-
 }
+
+#root {
+    width: 100%;
+    overflow-x: auto;
+}
+
 table {
     width: 100%;
     border-spacing: 5px;
-
     background-color: white;
     color: black;
 }
 
 th {
     padding: 8px 12px;
-    border: 1px solid #ddd;
     text-align: center;
     border: none;
     font-weight: normal;
