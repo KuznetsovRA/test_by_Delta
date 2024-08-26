@@ -1,0 +1,49 @@
+.currentDay {
+    background-color: #d1edf8;
+}
+
+.positive {
+    background-color: #d4edda;
+}
+
+.negative {
+    background-color: #f8d7da;
+}
+
+.neutral {
+    background-color: #f2f2f2;
+}
+
+.negative span {
+    color: #721c24;
+}
+
+.neutral span,
+.positive span{
+    color: #1f983c;
+}
+
+td {
+    margin: 55px;
+    padding: 8px 55px 8px 55px;
+    text-align: right;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.title {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.yesterday {
+    position: relative;
+    padding-right: 60px;
+}
+
+span {
+    position: absolute;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
